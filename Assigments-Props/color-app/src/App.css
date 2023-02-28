@@ -1,0 +1,23 @@
+.App {
+    width:100vw;
+    height: 100vh;
+    padding: 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:35px;
+}
+.Box {
+    width:200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(245, 245, 245, 0.87);
+    box-shadow: 0 0 10px black; 
+    border-radius: 5px;
+}
+.colorarea {
+    width:200px;
+    height: 180px;
+    margin-bottom: 10px;
+}

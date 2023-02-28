@@ -1,0 +1,40 @@
+.card {
+    color:white;
+    border: 2px solid black;
+    width:45%;
+    height: 310px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    border-radius: 10px;
+    background-color: rgba(7, 7, 7, 0.938);
+    /* background-image: url("https://c8.alamy.com/comp/2AGAWRY/the-witcher-poster-2019-credit-netflix-the-hollywood-archive-2AGAWRY.jpg"); */
+}
+.above {
+    display: flex;
+    gap:20px;
+}
+.movie-info h1 {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+.movie-info h4 {
+    color: lightblue;
+    font-weight: 200;
+}
+.movie-info h5 i {
+    color:rgb(108, 247, 165)
+}
+
+
+.middle {
+    width:60%;
+
+}
+.bottom {
+    margin-top: 35px;
+    display: flex;
+    gap:30px;
+}
